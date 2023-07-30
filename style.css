@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: red;
 
 
 }
@@ -21,4 +22,24 @@
     display: grid;
     grid-template-columns: repeat(3, auto);
     text-align: middle ;
+    background-color: ;
 }
+
+body {
+    background-color: pink;
+  }
+  
+  h1 {
+    background-color: green;
+    
+  }
+  
+  div {
+    background-color: orange;
+  }
+
+  .image {
+    width: 200px;
+    margin-inline: 550px;
+
+  }
