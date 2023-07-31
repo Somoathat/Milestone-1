@@ -46,3 +46,51 @@ body {
   .audio {
     margin-inline: 512px;
   }
+
+  .header-main{
+    width: fit-content;
+    height: 60px;
+    background-color:blueviolet ;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-main-logo {
+    width: 60px;
+    height: 100%;
+    color: brown;
+
+  }
+
+  .header-main-nav {
+    width: fit-content;
+    height: 100%;
+    color: brown;
+    align-items: center;
+
+  }
+
+  .header-main-nav ul {
+    list-style: none;
+    margin-left: 10px;
+
+  }
+
+  .header-main-nav ul li {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+
+  }
+
+
+
+  .header-main-sm {
+    width: 60px;
+    height: 100%;
+    color: lightgreen;
+
+  }
