@@ -54,6 +54,9 @@ function checkWinner() {
         const cellA = options[condition[0]];
         const cellB = options[condition[1]];
         const cellC = options[condition[2]];
+        if (allBlank(cellA, cellB, cellC)){
+            continue;
+        }
         if (cellA == cellB && cellB == cellC) {
             roundWon = true;
             break;
@@ -72,6 +75,9 @@ function checkWinner() {
     }
 }
 
+function allBlank(a,b,c) {
+    return a=="" && b=="" && c==""; 
+}
 
 function restartGame() {
     currentPlayer = "X";

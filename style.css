@@ -48,7 +48,6 @@ body {
   }
 
   .header-main{
-    width: fit-content;
     height: 60px;
     background-color:blueviolet ;
     display: flex;
@@ -63,7 +62,6 @@ body {
   }
 
   .header-main-nav {
-    width: fit-content;
     height: 100%;
     color: brown;
     align-items: center;
@@ -72,7 +70,7 @@ body {
 
   .header-main-nav ul {
     list-style: none;
-    margin-left: 10px;
+    padding-inline-start: 0;
 
   }
 
@@ -86,6 +84,10 @@ body {
 
   }
 
+  .header-main-nav ul li:last-of-type {
+    margin-right: 0;
+
+  }
 
 
   .header-main-sm {
