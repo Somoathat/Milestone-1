@@ -103,3 +103,9 @@ body {
     border-color: blue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  .audio {
+    background-color: chocolate;
+    border-style: solid;
+    border-color: black;
+  }
