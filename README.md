@@ -7,3 +7,4 @@
 
 ### The design of the game to be diffrent from other tic tac toe games is will be colored like the Pride Flag and geared towards the queer community
 
+###40% of the site is written in Javascript, 33% is written in HTML, and 30% is written in CSS
