@@ -1,3 +1,7 @@
+/* body { */
+  /* background-image: url('https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/60d9d501aabfa14e210e57bc_BukZNH1teP3lUZNEFk_0CTfsmONSTnOrHHGo3jj5ehZhVKseqmDtIrDr_PVhzeVRVZKBfPQK0szxWZNLt2YKZK8UnnDk-hYfdJEs80VrNgP7u2VOnJnnQi5O9cLPMNnzPCgWOloe.jpeg'); */
+  /* z-index: 1; */
+/* } */
 .cell{
     width: 100px;
     height: 100px;
@@ -16,6 +20,8 @@
     background-color: red;
 
 
+
+
 }
 
 #cellContainer{
@@ -27,9 +33,10 @@
 body {
     background-color: pink;
   }
-  
+
   h1 {
     background-color: green;
+
 
   }
   
@@ -50,6 +57,7 @@ body {
   .header-main{
     height: 60px;
     background-color:blueviolet ;
+    opacity: .8;
     display: flex;
     justify-content: space-between;
   }
@@ -63,7 +71,7 @@ body {
 
   .header-main-nav {
     height: 100%;
-    color: brown;
+    color: black;
     align-items: center;
 
   }
