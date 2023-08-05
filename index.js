@@ -86,13 +86,3 @@ function restartGame() {
     cells.forEach(cell => cell.textContent = "")
     running = true;
 }
-
-const elem = document.querySelector("audio");
-
-elem.audioTrackList.audio = (event) => {
-  trackEditor.addTrack(event.track);
-};
-
-elem.audioTrackList.audio = (event) => {
-  trackEditor.removeTrack(event.track);
-};
