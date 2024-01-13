@@ -1,0 +1,24 @@
+@mixin dementions($w, $h) {
+  width: $w;
+  height: $h;
+}
+@function cube($n) {
+  @warn "don't specify pixels or else it won't work";
+  @return $n * $n * $n;
+}
+@function square($n) {
+  @return $n * $n;
+}
+@function add-fifty($n) {
+  @return $n + 50;
+}
+$eggshell: rgba(255, 255, 255, 0.911);
+$pride-background-color: pink;
+$image-margin: add-fifty(500px);
+$audio-margin: cube(8) * 1px;
+$family-of-fonts: sans-serif;
+$cells-size: square(10) * 1px;
+$alignment-standard: center;
+$consistant-boarder-style: solid;
+$consistant-radius: 50%;
+$consistant-font-style: italic;
